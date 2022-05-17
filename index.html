@@ -2,33 +2,139 @@
 <html lang="en">
     <head>
         <title>Pre-Enrollment Challenges</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style type="text/css">
-            .mainvideo {
-                background-color: cyan;
-                float: left;
-            }
-            .second {
-                background-color: gray;
-               
-            }
-        </style>
         <link rel="stylesheet" href="style.css">
     </head> 
     <body>
-       <nav class="flex-div">
-           <div class="navleft">
-                <img class="menuIcon" src="images/menu.png">
-                <img class="logoIcon" src="images/logo.png">
-           </div>
-           <div class="navmiddle"></div>
-           <div class="navright">
-                <img src="images/upload.png">
-                <img src="images/more.png"> 
-                <img src="images/notification.png">
-                <img class ="user" src="images/Jorum.jpg">
+        <div class="container">
+            <div class="play-video">
+            <header>
+                <img class="logo" src="images/logo.png">
+            </header>
+        
+            <section id="video">
+                <iframe  class="player" width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   
+            </section>
+            <h3>This is a short tutorial on how to embed a YouTube Video using HTML/CSS</h3>
+            <p>Learn how easy you can use HTML/CSS to code yourself into embedding a youtube video</p>
+            <div class="videoinfo">
+                <p>132,308 views &bull; May 11, 2018</p>
+                <div>
+                    <a href=""><img src="images/like.png">200</a>
+                    <a href=""><img src="images/dislike.png">2</a>
+                    <a href=""><img src="images/share.png">Share</a>
+                    <a href=""><img src="images/save.png">Save</a>
+                </div>
             </div>
-       </nav>
+            <hr>
+            <div class="publisher">
+                <img src="images/Jorum.jpg">
+                <div>
+                    <p>Tutorials</p>
+                    <span>150K Subscribers</span>
+                </div>
+                <button type="button">Subscribe</button>
+            </div>
+            <div class="viddescription">
+                <p>This is a channel where you can learn all sorts of coding</p>
+                <p>Subscribe if you like</p><hr>
+                <h4>20 Comments</h4>
+
+                <div class="comments">
+                    <img src="images/Jorum.jpg" alt="">
+                    <input type="text" placeholder="Write comment...">
+                </div>
+                <div class="oldcomments">
+                    <img src="images/Jack.png" alt="">
+                    <div>
+                        <h3>Jack Mathews</h3>
+                        <span>1 Week Ago</span>
+                        <p>From what you have shown, I would say it is easy to understand. May you continue
+                            enrichiing us in our quest to keep on coding. I love it. have subscribed man
+                        </p>
+                        <div class="action">
+                            <img src="images/like.png">
+                            <span>300</span>
+                            <img src="images/dislike.png">
+                            <span>1</span>
+                            <span>REPLY</span>
+                            <a href="">All Replies</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="oldcomments">
+                    <img src="images/megan.png" alt="">
+                    <div>
+                        <h3>Megan Kimani</h3>
+                        <span>2 Weeks Ago</span>
+                        <p>Thank you for your input. I have really searched for this solution
+                        </p>
+                        <div class="action">
+                            <img src="images/like.png">
+                            <span>150</span>
+                            <img src="images/dislike.png">
+                            <span>0</span>
+                            <span>REPLY</span>
+                            <a href="">All Replies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <main>
+                <p class="suggested"><h5>Videos we think you would like...</h5></p>
+                <article>
+                    <img src="images/thumbnail1.png"  class="thumbnail">
+                    <div class="details">
+                        <h4>Best Travel Sites in the world</h4>
+                        <p>The best places to visit at lear once in life.</p><br>
+                        <p>1k Views</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/thumbnail2.png"  class="thumbnail">
+                    <div class="details">
+                        <h4>America, land of Champions</h4>
+                        <p>NSports updates on USA triumphs</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/thumbnail3.png"  class="thumbnail">
+                    <div class="details">
+                        <h4>Longest Escalators</h4>
+                        <p>Cities with the longest escalators in the world</p>
+                    </div>
+                </article><article>
+                    <img src="images/thumbnail4.png"  class="thumbnail">
+                    <div class="details">
+                        <h4>Best Views</h4>
+                        <p>Good looking natural scenes</p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/thumbnail5.png"  class="thumbnail">
+                    <div class="details">
+                        <h4>College Escursions</h4>
+                        <p>What to do when waiting for next lesson</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/thumbnail6.png"  class="thumbnail">
+                    <div class="details">
+                        <h4>Model Cars</h4>
+                        <p>Porsche 2020 series preview</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/thumbnail7.png"  class="thumbnail">
+                    <div class="details">
+                        <h4>Dublin City University</h4>
+                        <p>What you expect to see</p>
+                    </div>
+                </article>
+            </main>
+        </div>
+        </div>
     </body>   
-</html>
+</html> 
